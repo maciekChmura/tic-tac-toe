@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+
 /* * {
   border: 1px solid lightblue;
 } */
@@ -6,10 +7,12 @@
 body {
   font-family: "Press Start 2P";
 }
+
 p {
   margin: 10px;
   text-align: center;
 }
+
 #status {
   margin: 0 auto;
   padding: 20px;
@@ -17,6 +20,10 @@ p {
   height: 20px;
   font-size: 16px;
   text-align: center;
+}
+
+.statusWon {
+  color: lightcoral;
 }
 
 #board {
@@ -38,6 +45,7 @@ p {
   border-radius: 8px;
   font-size: 30px;
 }
+
 .current {
   outline: 2px dashed lightcoral;
 }
